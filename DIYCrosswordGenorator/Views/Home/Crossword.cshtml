@@ -1,0 +1,20 @@
+﻿<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crossword Puzzle</title>
+</head>
+<body>
+    <div>
+        <form>
+            <label for="crosswordWords">Words:</label>
+            <textarea id="crosswordWords" name="crosswordWords" required></textarea>
+            <button type="button" onclick="seperateWords()">Generate</button>
+        </form>
+    </div>
+    <div id="crossword">
+        <p>Your crossword will appear here.</p>
+    </div>
+</body>
+<footer>
+    <script src="~/js/crossword.js"></script>
+</footer>
